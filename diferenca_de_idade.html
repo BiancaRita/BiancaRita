@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+	var minhaIdade = 14;
+	var idadeMãe = 40;
+
+	function mostra(frase) {
+		document.write(frase + (minhaIdade - idadeMãe));
+		pulaLinha();
+	}
+
+	function exibeTítulo(título) {
+		document.write("<h1>" + título + "</h1>");
+	}
+
+	exibeTítulo("A idade da minha mãe");
+
+	mostra("Nossa diferença de idade é ");
+</script>
